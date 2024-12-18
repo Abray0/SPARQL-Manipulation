@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://example.org/books/> .
+@prefix schema: <http://schema.org/> .
+
+:TheHobbit a :Book ;
+    :title "The Hobbit" ;
+    :author "J.R.R. Tolkien" ;
+    :genre "Fantasy" ;
+    :publishedYear 1937 ;
+    :isbn "978-0547928227" ;
+    :coverImage "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf" .
+
+:PrideAndPrejudice a :Book ;
+    :title "Pride and Prejudice" ;
+    :author "Jane Austen" ;
+    :genre "Romance" ;
+    :publishedYear 2001 ;
+    :isbn "978-0141439518" ;
+    :coverImage "https://images.unsplash.com/photo-1544947950-fa07a98d237f" .
+
+:Dune a :Book ;
+    :title "Dune" ;
+    :author "Frank Herbert" ;
+    :genre "Science Fiction" ;
+    :publishedYear 1965 ;
+    :isbn "978-0441172719" ;
+    :coverImage "https://images.unsplash.com/photo-1608229191360-7064b0afa639" .
+
+:TheGreatGatsby a :Book ;
+    :title "The Great Gatsby" ;
+    :author "F. Scott Fitzgerald" ;
+    :genre "Literary Fiction" ;
+    :publishedYear 1925 ;
+    :isbn "978-0743273565" ;
+    :coverImage "https://images.unsplash.com/photo-1543002588-bfa74002ed7e" .
+
+:Neuromancer a :Book ;
+    :title "Neuromancer" ;
+    :author "William Gibson" ;
+    :genre "Science Fiction" ;
+    :publishedYear 1984 ;
+    :isbn "978-0441569595" ;
+    :coverImage "https://images.unsplash.com/photo-1563206767-5b18f218e8de" .
