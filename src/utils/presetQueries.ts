@@ -94,10 +94,10 @@ WHERE {
 `
   },
   {
-    id: 'gothic-books',
-    name: 'Gothic Books',
-    description: 'Find all gothic books',
-    category: 'Genre',
+    id: 'books-by-author',
+    name: 'Books by George Orwell',
+    description: 'Find all books by George Orwell',
+    category: 'Author',
     query: `${PREFIX}
 SELECT ?title ?author ?genre ?publishedYear ?coverImage
 WHERE {
@@ -107,24 +107,7 @@ WHERE {
         :genre ?genre ;
         :publishedYear ?publishedYear ;
         :coverImage ?coverImage .
-        FILTER (?genre = "Gothic")
-}
-`
-  },
-  {
-    id: 'books-by-author',
-    name: 'Books by Author',
-    description: 'Find all books by a specific author',
-    category: 'Author',
-    query: `${PREFIX}
-SELECT ?title ?genre ?publishedYear ?coverImage
-WHERE {
-  ?book a :Book ;
-        :title ?title ;
-        :author "J.R.R. Tolkien" ;
-        :genre ?genre ;
-        :publishedYear ?publishedYear ;
-        :coverImage ?coverImage .
+        FILTER (?author = "George Orwell")
 }
 `
   }

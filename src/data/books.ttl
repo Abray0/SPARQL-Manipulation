@@ -81,7 +81,7 @@
     :genre "Gothic" ;
     :publishedYear 1847 ;
     :isbn "978-0141441146" ;
-    :coverImage "src/data/images/warAndPeace.jpg" .
+    :coverImage "src/data/images/janeEyre.jpg" .
 
 :BraveNewWorld a :Book ;
     :title "Brave New World" ;
@@ -105,7 +105,7 @@
     :genre "Classic" ;
     :publishedYear 1951 ;
     :isbn "978-0316769488" ;
-    :coverImage "https://covers.openlibrary.org/b/id/8236784-L.jpg" .
+    :coverImage "src/data/images/theCatcherInTheRye.jpg" .
 
 :AnimalFarm a :Book ;
     :title "Animal Farm" ;
@@ -121,7 +121,7 @@
     :genre "Philosophical" ;
     :publishedYear 1988 ;
     :isbn "978-0061122415" ;
-    :coverImage "https://covers.openlibrary.org/b/id/8223445-L.jpg" .
+    :coverImage "src/data/images/theAlchemist.jpg" .
 
 :WutheringHeights a :Book ;
     :title "Wuthering Heights" ;
@@ -129,7 +129,7 @@
     :genre "Gothic" ;
     :publishedYear 1847 ;
     :isbn "978-0141439556" ;
-    :coverImage "https://covers.openlibrary.org/b/id/8216753-L.jpg" .
+    :coverImage "src/data/images/wutheringHeights.jpg" .
 
 :GreatExpectations a :Book ;
     :title "Great Expectations" ;
@@ -137,7 +137,7 @@
     :genre "Classic" ;
     :publishedYear 1861 ;
     :isbn "978-0141439563" ;
-    :coverImage "https://covers.openlibrary.org/b/id/8218226-L.jpg" .
+    :coverImage "src/data/images/greatExpectations.jpg" .
 
 :Frankenstein a :Book ;
     :title "Frankenstein" ;
@@ -145,7 +145,7 @@
     :genre "Gothic" ;
     :publishedYear 1818 ;
     :isbn "978-0141439471" ;
-    :coverImage "https://covers.openlibrary.org/b/id/8218756-L.jpg" .
+    :coverImage "src/data/images/frankenstein.jpg" .
 
 :LesMiserables a :Book ;
     :title "Les Miserables" ;
@@ -153,7 +153,7 @@
     :genre "Historical" ;
     :publishedYear 1862 ;
     :isbn "978-0451419439" ;
-    :coverImage "https://covers.openlibrary.org/b/id/8217124-L.jpg" .
+    :coverImage "src/data/images/lesMiserables.jpg" .
 
 :Dracula a :Book ;
     :title "Dracula" ;
@@ -161,4 +161,4 @@
     :genre "Horror" ;
     :publishedYear 1897 ;
     :isbn "978-0141439846" ;
-    :coverImage "https://covers.openlibrary.org/b/id/8214924-L.jpg" .
+    :coverImage "src/data/images/dracula.jpg" .
