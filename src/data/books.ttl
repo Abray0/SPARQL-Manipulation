@@ -9,7 +9,7 @@
     :genre "Fantasy" ;
     :publishedYear 1937 ;
     :isbn "978-0547928227" ;
-    :coverImage "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf" .
+    :coverImage "src/data/images/theHobbit.jpg" .
 
 :PrideAndPrejudice a :Book ;
     :title "Pride and Prejudice" ;
@@ -17,7 +17,7 @@
     :genre "Romance" ;
     :publishedYear 2001 ;
     :isbn "978-0141439518" ;
-    :coverImage "https://images.unsplash.com/photo-1544947950-fa07a98d237f" .
+    :coverImage "src/data/images/prideAndPrejudice.jpg" .
 
 :Dune a :Book ;
     :title "Dune" ;
@@ -25,7 +25,7 @@
     :genre "Science Fiction" ;
     :publishedYear 1965 ;
     :isbn "978-0441172719" ;
-    :coverImage "https://images.unsplash.com/photo-1608229191360-7064b0afa639" .
+    :coverImage "src/data/images/dune.jpg" .
 
 :TheGreatGatsby a :Book ;
     :title "The Great Gatsby" ;
@@ -33,7 +33,7 @@
     :genre "Literary Fiction" ;
     :publishedYear 1925 ;
     :isbn "978-0743273565" ;
-    :coverImage "https://images.unsplash.com/photo-1543002588-bfa74002ed7e" .
+    :coverImage "src/data/images/theGreatGatsby.jpg" .
 
 :Neuromancer a :Book ;
     :title "Neuromancer" ;
@@ -41,4 +41,124 @@
     :genre "Science Fiction" ;
     :publishedYear 1984 ;
     :isbn "978-0441569595" ;
-    :coverImage "https://images.unsplash.com/photo-1563206767-5b18f218e8de" .
+    :coverImage "src/data/images/neuromancer.jpg" .
+
+:ToKillAMockingbird a :Book ;
+    :title "To Kill a Mockingbird" ;
+    :author "Harper Lee" ;
+    :genre "Classic" ;
+    :publishedYear 1960 ;
+    :isbn "978-0060935467" ;
+    :coverImage "src/data/images/toKillAMokingBird.jpg" .
+
+:1984 a :Book ;
+    :title "1984" ;
+    :author "George Orwell" ;
+    :genre "Dystopian" ;
+    :publishedYear 1949 ;
+    :isbn "978-0451524935" ;
+    :coverImage "src/data/images/1984.jpg" .
+
+:MobyDick a :Book ;
+    :title "Moby-Dick" ;
+    :author "Herman Melville" ;
+    :genre "Adventure" ;
+    :publishedYear 1851 ;
+    :isbn "978-1503280786" ;
+    :coverImage "src/data/images/mobyDick.jpg" .
+
+:WarAndPeace a :Book ;
+    :title "War and Peace" ;
+    :author "Leo Tolstoy" ;
+    :genre "Historical" ;
+    :publishedYear 1869 ;
+    :isbn "978-0199232765" ;
+    :coverImage "src/data/images/warAndPeace.jpg" .
+
+:JaneEyre a :Book ;
+    :title "Jane Eyre" ;
+    :author "Charlotte Bronte" ;
+    :genre "Gothic" ;
+    :publishedYear 1847 ;
+    :isbn "978-0141441146" ;
+    :coverImage "src/data/images/warAndPeace.jpg" .
+
+:BraveNewWorld a :Book ;
+    :title "Brave New World" ;
+    :author "Aldous Huxley" ;
+    :genre "Dystopian" ;
+    :publishedYear 1932 ;
+    :isbn "978-0060850524" ;
+    :coverImage "src/data/images/braveNewWorld.jpg" .
+
+:Catch22 a :Book ;
+    :title "Catch-22" ;
+    :author "Joseph Heller" ;
+    :genre "Satire" ;
+    :publishedYear 1961 ;
+    :isbn "978-1451626650" ;
+    :coverImage "src/data/images/catch22.jpg" .
+
+:TheCatcherInTheRye a :Book ;
+    :title "The Catcher in the Rye" ;
+    :author "J.D. Salinger" ;
+    :genre "Classic" ;
+    :publishedYear 1951 ;
+    :isbn "978-0316769488" ;
+    :coverImage "https://covers.openlibrary.org/b/id/8236784-L.jpg" .
+
+:AnimalFarm a :Book ;
+    :title "Animal Farm" ;
+    :author "George Orwell" ;
+    :genre "Political Satire" ;
+    :publishedYear 1945 ;
+    :isbn "978-0451526342" ;
+    :coverImage "src/data/images/animalFarm.jpg" .
+
+:TheAlchemist a :Book ;
+    :title "The Alchemist" ;
+    :author "Paulo Coelho" ;
+    :genre "Philosophical" ;
+    :publishedYear 1988 ;
+    :isbn "978-0061122415" ;
+    :coverImage "https://covers.openlibrary.org/b/id/8223445-L.jpg" .
+
+:WutheringHeights a :Book ;
+    :title "Wuthering Heights" ;
+    :author "Emily Bronte" ;
+    :genre "Gothic" ;
+    :publishedYear 1847 ;
+    :isbn "978-0141439556" ;
+    :coverImage "https://covers.openlibrary.org/b/id/8216753-L.jpg" .
+
+:GreatExpectations a :Book ;
+    :title "Great Expectations" ;
+    :author "Charles Dickens" ;
+    :genre "Classic" ;
+    :publishedYear 1861 ;
+    :isbn "978-0141439563" ;
+    :coverImage "https://covers.openlibrary.org/b/id/8218226-L.jpg" .
+
+:Frankenstein a :Book ;
+    :title "Frankenstein" ;
+    :author "Mary Shelley" ;
+    :genre "Gothic" ;
+    :publishedYear 1818 ;
+    :isbn "978-0141439471" ;
+    :coverImage "https://covers.openlibrary.org/b/id/8218756-L.jpg" .
+
+:LesMiserables a :Book ;
+    :title "Les Miserables" ;
+    :author "Victor Hugo" ;
+    :genre "Historical" ;
+    :publishedYear 1862 ;
+    :isbn "978-0451419439" ;
+    :coverImage "https://covers.openlibrary.org/b/id/8217124-L.jpg" .
+
+:Dracula a :Book ;
+    :title "Dracula" ;
+    :author "Bram Stoker" ;
+    :genre "Horror" ;
+    :publishedYear 1897 ;
+    :isbn "978-0141439846" ;
+    :coverImage "https://covers.openlibrary.org/b/id/8214924-L.jpg" .

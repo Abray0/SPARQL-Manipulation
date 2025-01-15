@@ -1,4 +1,3 @@
-
 const PREFIX = `
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://example.org/books/>
@@ -28,16 +27,17 @@ ORDER BY ?title`
     description: 'Find all science fiction books',
     category: 'Genre',
     query: `${PREFIX}
-SELECT ?title ?author ?publishedYear ?coverImage
+SELECT ?title ?author ?genre ?publishedYear ?coverImage
 WHERE {
   ?book a :Book ;
         :title ?title ;
         :author ?author ;
+        :genre ?genre ;
         :publishedYear ?publishedYear ;
-        :coverImage ?coverImage ;
-        :genre "Science Fiction" .
+        :coverImage ?coverImage .
+        FILTER (?genre = "Science Fiction")
 }
-ORDER BY ?publishedYear`
+`
   },
   {
     id: 'classic-books',
@@ -55,6 +55,77 @@ WHERE {
         :coverImage ?coverImage .
   FILTER (?publishedYear < 1950)
 }
-ORDER BY ?publishedYear`
+`
+  },
+  {
+    id: 'romance-books',
+    name: 'Romance Books',
+    description: 'Find all romance books',
+    category: 'Genre',
+    query: `${PREFIX}
+SELECT ?title ?author ?genre ?publishedYear ?coverImage
+WHERE {
+  ?book a :Book ;
+        :title ?title ;
+        :author ?author ;
+        :genre ?genre ;
+        :publishedYear ?publishedYear ;
+        :coverImage ?coverImage .
+        FILTER (?genre = "Romance")
+}
+`
+  },
+  {
+    id: 'books-after-2000',
+    name: 'Books Published After 2000',
+    description: 'List all books published after the year 2000',
+    category: 'Time Period',
+    query: `${PREFIX}
+SELECT ?title ?author ?genre ?publishedYear ?coverImage
+WHERE {
+  ?book a :Book ;
+        :title ?title ;
+        :author ?author ;
+        :genre ?genre ;
+        :publishedYear ?publishedYear ;
+        :coverImage ?coverImage .
+  FILTER (?publishedYear > 2000)
+}
+`
+  },
+  {
+    id: 'gothic-books',
+    name: 'Gothic Books',
+    description: 'Find all gothic books',
+    category: 'Genre',
+    query: `${PREFIX}
+SELECT ?title ?author ?genre ?publishedYear ?coverImage
+WHERE {
+  ?book a :Book ;
+        :title ?title ;
+        :author ?author ;
+        :genre ?genre ;
+        :publishedYear ?publishedYear ;
+        :coverImage ?coverImage .
+        FILTER (?genre = "Gothic")
+}
+`
+  },
+  {
+    id: 'books-by-author',
+    name: 'Books by Author',
+    description: 'Find all books by a specific author',
+    category: 'Author',
+    query: `${PREFIX}
+SELECT ?title ?genre ?publishedYear ?coverImage
+WHERE {
+  ?book a :Book ;
+        :title ?title ;
+        :author "J.R.R. Tolkien" ;
+        :genre ?genre ;
+        :publishedYear ?publishedYear ;
+        :coverImage ?coverImage .
+}
+`
   }
 ];

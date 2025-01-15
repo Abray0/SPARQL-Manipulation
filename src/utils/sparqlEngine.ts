@@ -51,7 +51,8 @@ interface Literal {
 }
 
 interface Order {
-  variable: Variable;
+  variable?: Variable;
+  expression?: Variable;
   descending?: boolean;
 }
 
@@ -294,7 +295,8 @@ class SparqlEngine {
   private applyOrderBy(results: any[], orderCriteria: Order[]): any[] {
     return results.sort((a, b) => {
       for (const order of orderCriteria) {
-        const varName = order.variable.value; 
+        console.log('order:', order);
+        const varName = order.expression!.value; 
         const valA = a[varName];
         const valB = b[varName];
 
