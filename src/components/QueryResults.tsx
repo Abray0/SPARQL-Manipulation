@@ -1,5 +1,5 @@
 import { BookCard } from './BookCard';
-import { Book } from '../types';
+import { Book } from '../types/Book';
 
 interface QueryResultsProps {
   results: Book[];

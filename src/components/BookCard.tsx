@@ -1,4 +1,4 @@
-import { Book } from '../types';
+import { Book } from '../types/Book';
 
 interface BookCardProps {
   book: Book;
