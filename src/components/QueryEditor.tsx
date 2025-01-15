@@ -17,7 +17,7 @@ WHERE {
         :publishedYear ?publishedYear ;
         :coverImage ?coverImage .
 }
-LIMIT 10`;
+`;
 
 export function QueryEditor({ onExecuteQuery }: QueryEditorProps) {
   const [query, setQuery] = useState(DEFAULT_QUERY);
